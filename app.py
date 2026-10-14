@@ -6,7 +6,9 @@ import pandas as pd
 import requests
 import streamlit as st
 
-BASE = "https://api.binance.com"
+
+BASE = "https://data-api.binance.vision"
+
 TIMEFRAMES = ["15m", "1h", "4h"]
 QUOTE = "USDT"
 
